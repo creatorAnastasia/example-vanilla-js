@@ -1,0 +1,279 @@
+*{
+margin: 0;
+padding: 0;
+}
+.conteiner {
+width: 100vw;
+height: 100vh;
+}
+
+.menu {
+height: 200px;
+width: 100vw;
+background-color:#FFE4E1;
+padding-top: 30px;
+}
+
+.icon{
+margin-left: 40px;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background: url('../klipartz.com.png') 10px 10px/80px 80px no-repeat;
+}
+.icon:hover{
+border: solid 1px rgba(238, 8, 96, 0.5);
+box-shadow: 0 0 30px rgba(238, 8, 96, 0.5);
+cursor: pointer;
+}
+
+.text1{
+font-family: 'Raleway',
+sans-serif;
+position: sticky;
+display: flex;
+align-items: center;
+left: 500px;
+background-color: #fff;
+font-size: 20px;
+width: 600px;
+padding: 100px;
+text-align:center;
+}
+.text_welcome{
+font-family: 'Oswald',
+sans-serif;
+position: absolute;
+top: 144px;
+left: 800px;
+background: white;
+padding:10px;
+font-size: 95px;
+
+}
+.text_welcome2 {
+font-family: 'Oswald',
+sans-serif;
+position: absolute;
+top: 320px;
+left: 800px;
+background: white;
+padding:10px;
+font-size: 100px;
+
+}
+.pic{
+width: 300px;
+height: 300px;
+}
+.home{
+background-size:300px ;
+}
+.conteiner_welcome{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9cfa4+0,ffffff+100,ffffff+100 */
+background: #FFE4E1;
+/* Old browsers */
+background: -moz-linear-gradient(top, #FFE4E1 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+/* FF3.6-15 */
+background: -webkit-linear-gradient(top, #FFE4E1 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+/* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #FFE4E1 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE4E1', endColorstr='#ffffff', GradientType=0);
+/* IE6-9 */
+}
+.welcome {
+margin-left: 175px;
+position: relative;
+background: url('https://sun9-15.userapi.com/hZpKlHkPcSWuaeDTUBo0PpmPK_yuAJkasuTUDQ/cOYRyuxyCdU.jpg') 0 0/auto 100% no-repeat;
+height: 800px;
+}
+
+.note {
+position: absolute;
+width: 80px;
+height: 80px;
+background: url('./Mask Group (1).png') 0 0/80px 80px no-repeat;
+}
+
+.n1 {
+left: 140px;
+top: 80px;
+transform: rotate(30deg);
+}
+
+.n2 {
+left: 40px;
+top: 5px;
+transform: rotate(-10deg);
+}
+
+.n3 {
+left: 100px;
+top: 30px
+}
+
+.wrap_image {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.image_menu1{
+background: url("https://sun9-5.userapi.com/wWPr2PSBv9m5WL0T0kGIeoX1yDAO59xcKc55FA/LBz1kAQW6DU.jpg")0 0/450px 400px no-repeat;
+width: 400px;
+height: 100vh;
+}
+.image_menu3 {
+background: url("https://sun9-74.userapi.com/PSn2tVAUT0sfkT0ihi68DhxMqlsc4CueBmzZVg/1oV834N2XNw.jpg")0 0/450px 400px no-repeat;
+width: 400px;
+height: 100vh;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.image_menu2 {
+background: url("https://sun9-13.userapi.com/zYAllkxCVbkkR3U-iwouq1stdr_uKi8no0bq_g/mlWuch-n3V0.jpg")0 0/450px 400px no-repeat;
+width: 400px;
+height: 100vh;
+}
+.text {
+text-align: center;
+margin-top: 365px;
+font-family: 'Oswald',
+sans-serif;
+font-size: 40px;
+background-color: #FFE4E1;
+/* width: 250px; */
+align-items: center;
+justify-content: space-evenly;
+}
+.text:hover {
+cursor: pointer;
+border: solid 1px rgba(238, 8, 96, 0.5);
+box-shadow: 0 0 30px rgba(238, 8, 96, 0.5);
+}
+@media(max-width:767px) {
+*{
+margin: 0px;
+padding: 0px;
+}
+.menu {
+height: 70px;
+width: 100vw;
+background-color: #FFE4E1;
+padding-top: 0px;
+}
+.icon {
+z-index: 2;
+position: absolute;
+margin-top: 10px;
+margin-left: 10px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background: url('../klipartz.com.png') 1px 1px/45px 45px no-repeat;
+}
+
+.icon:hover {
+border: solid 1px rgba(238, 8, 96, 0.5);
+box-shadow: 0 0 10px rgba(238, 8, 96, 0.5);
+cursor: pointer;
+}
+.welcome {
+margin-left: 0px;
+position: relative;
+background: url('https://sun9-15.userapi.com/hZpKlHkPcSWuaeDTUBo0PpmPK_yuAJkasuTUDQ/cOYRyuxyCdU.jpg') 0 0/auto 100% no-repeat;
+height: 300px;
+
+}
+.text_welcome {
+font-family: 'Oswald',
+sans-serif;
+position: absolute;
+top: 0px;
+left: 0px;
+background: white;
+padding: 0px;
+font-size: 35px;
+
+}
+
+.text_welcome2 {
+font-family: 'Oswald',
+sans-serif;
+position: absolute;
+top:50px;
+left: 0px;
+background: white;
+padding: 0px;
+font-size: 35px;
+}
+.note {
+position: absolute;
+width: 60px;
+height: 60px;
+background: url('./Mask Group (1).png') 0 0/60px 60px no-repeat;
+}
+
+.n1 {
+left: 340px;
+top: 80px;
+transform: rotate(30deg);
+}
+
+.n2 {
+left: 340px;
+top: 5px;
+transform: rotate(-10deg);
+}
+
+.n3 {
+left: 300px;
+top: 30px
+}
+.text1 {
+font-family: 'Raleway',
+sans-serif;
+position: sticky;
+display: flex;
+align-items: center;
+left: 2px;
+background-color: #fff;
+font-size: 20px;
+width: 450px;
+padding: 20px;
+text-align: center;
+}
+
+
+.wrap_image {
+flex-direction: column;
+margin-left: -200px;
+}
+.image_menu1{
+background: url("https://sun9-5.userapi.com/wWPr2PSBv9m5WL0T0kGIeoX1yDAO59xcKc55FA/LBz1kAQW6DU.jpg")0 0/450px 400px no-repeat;
+margin-bottom: -400px;
+}
+.image_menu3 {
+background: url("https://sun9-74.userapi.com/PSn2tVAUT0sfkT0ihi68DhxMqlsc4CueBmzZVg/1oV834N2XNw.jpg")0 0/450px 400px no-repeat;
+margin-bottom: -400px;
+}
+
+.image_menu2 {
+background: url("https://sun9-13.userapi.com/zYAllkxCVbkkR3U-iwouq1stdr_uKi8no0bq_g/mlWuch-n3V0.jpg")0 0/450px 400px no-repeat;
+margin-bottom: -400px;
+}
+.text {
+text-align: center;
+font-family: 'Oswald',
+sans-serif;
+font-size: 33px;
+background-color: #FFE4E1;
+align-items: center;
+justify-content: space-evenly;
+}
+.conteinerAboutMe{
+  display: none;
+}
+}

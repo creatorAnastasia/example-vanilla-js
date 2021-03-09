@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <a href="../index.html"><div class="icon"></div></a>
+  <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <div class="conteiner">
+    <div class="block">
+      <div class="block_form">
+          <input type='text' placeholder=" Добавить задачу:"class="input">
+          <button onClick="add()" class="but">ok</button>
+           <div class="mission">
+             <p align="center">Гаммы 15-45мин(по учебнику Ширинской Н.В):</p>
+              <ul>
+                <li><label><input type="checkbox">В прямом движении 7 раз<button onClick="del(this)" class="del" >x</button></label></li>
+                <li><label><input type="checkbox">Расходящееся движение 7 раз<button onClick="del(this)" class="del">x</button></label></li>
+                <li><label><input type="checkbox">Аккорды<button onClick="del(this)" class="del">x</button></label></li>
+                <li><label><input type="checkbox">Арпеджио короткие<button onClick="del(this)" class="del">x</button></label></li>
+                <li><label><input type="checkbox">Арпеджио ломаные<button onClick="del(this)" class="del">x</button></label></li>
+                <li><label><input type="checkbox">Арпеджио длинные<button onClick="del(this)" class="del">x</button></label></li>
+                <li><label><input type="checkbox">Хроматическая гамма<button onClick="del(this)" class="del">x</button></label></li>
+                <li><label><input type="checkbox">Упражнения по желанию<button onClick="del(this)" class="del">x</button></label></li>
+              </ul>
+            </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="./script.js"></script>
+</html>

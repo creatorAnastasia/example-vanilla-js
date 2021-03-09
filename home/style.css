@@ -1,0 +1,82 @@
+body {
+background-color: black;
+}
+.pic {
+width: 700px;
+border: 1px solid white;
+border-radius: 30px;
+box-shadow: 0 0 50px indigo;
+}
+.main-menu {
+padding-top: 270px;
+width: 400px;
+}
+.submenu {
+display: none;
+}
+.submenu2 {
+display: none;
+}
+li {
+padding: 8px;
+list-style-type: none;
+font-size: 25px;
+font-family: Merriweather;
+}
+a {
+text-decoration: none;
+/* Отменяем подчеркивание у ссылки */
+color: indigo;
+}
+a:active {
+color: indigo;
+}
+a:hover{
+color: aliceblue;
+cursor: pointer;
+}
+li:hover{
+box-shadow: 0 0 10px rgb(255, 255, 255);
+padding: 9px;
+}
+
+.container {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.wrapper {
+display: flex;
+margin-top: 90px;
+width: 100%;
+max-width: 1300px;
+border: 1px solid white;
+border-radius: 20px;
+}
+
+.article img {
+margin: 100px;
+}
+
+.submenu li {
+
+}
+button{
+margin-left:50px ;
+background-color:#02021a;
+color: blueviolet;
+margin-top: 200px;
+font-size: 20px;
+font-family: Merriweather;
+padding: 4px;
+}
+.call{
+margin-top: 700px;
+width: 60px;
+height: 55px;
+border-radius: 50%;
+display: none;
+background: url('./pngegg (1).png') 0px 0px/55px 55px no-repeat;
+box-shadow: 0 0 20px rgb(255, 255, 255);
+}

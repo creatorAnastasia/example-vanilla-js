@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <div class="container">
+<div>
+</div>
+  <div class="wrapper">
+    <nav class="main-menu">
+      <ul>
+        <li><a href="./glavnaja">____Главная</a></li>
+       
+        <li onClick="toggleDisplay('.submenu2')"><a>____Сольфеджио:</a></li>
+           <ul class="submenu2">
+            <li><a href="./myBook">___Мой учебник</a></li>
+            <li><a href="./listBook/">___Литература</a></li>
+            <!-- <li><a>___Для детей</a></li>
+            <li><a>___ДЖАЗ</a></li> -->
+          </ul>
+        </li>
+         <!-- <li onClick="toggleDisplay('.submenu')"><a>____Музыкальная литература:</a></li>
+           <ul class="submenu">
+            <li class=submenu_link><a>___Слушать</a></li>
+            <li class="submenu_link"><a>___Биографии и хронология</a></li>
+          </ul>
+        </li> -->
+        <li class="plan"><a href="./plan">____План занятий</a></li>
+      </ul>
+
+       <button onClick="toggleDisplay2('.call')"> Связь со мной</button>
+    </nav>
+      <div class="call"></div>
+    <div class="article">
+        <img class='pic'src="https://i.pinimg.com/originals/15/90/1f/15901ff895edb71fe7631c826bbc4a05.jpg"/>
+    </div> 
+
+  </div>
+</div>
+</body>
+<script src="./script.js"></script>
+</html>
